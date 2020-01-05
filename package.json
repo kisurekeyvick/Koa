@@ -1,0 +1,28 @@
+{
+  "name": "kisure",
+  "version": "1.0.0",
+  "description": "koa ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/server.js",
+    "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisurekeyvick/Koa.git"
+  },
+  "author": "kisure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kisurekeyvick/Koa/issues"
+  },
+  "homepage": "https://github.com/kisurekeyvick/Koa#readme",
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-router": "^7.0.42",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
